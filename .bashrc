@@ -36,3 +36,5 @@ stty werase undef
 bind '"\C-w": backward-kill-word'
 
 PATH=$PATH:/home/aneeshnaman/Programming/Anantak/nodejs/node-v8.11.3-linux-x64/bin
+
+alias wfh='ssh aneeshnaman-linux.sea.corp.google.com'
