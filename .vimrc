@@ -7,15 +7,15 @@ set nocompatible
 " messed up.
 filetype off  " Required!
 set rtp+=~/.vim/bundle/Vundle.vim
+
 call vundle#begin()
-" Self-manage Vundle. Required.
 Plugin 'gmarik/vundle'
-" Other vundle plugins
 Plugin 'wesQ3/vim-windowswap'
-Plugin 'wincent/command-t'
-Plugin 'SirVer/ultisnips'
-"Plugin 'google/vim-syncopate'
+Plugin 'google/vim-maktaba'
+Plugin 'google/vim-glaive'
+Plugin 'google/vim-codefmt'
 call vundle#end()
+call glaive#Install()
 
 set rtp+=~/.fzf
 
@@ -33,7 +33,6 @@ set scrolloff=10
 set expandtab
 set autoindent
 set showcmd
-" Match angular braces for proto outputs
 set matchpairs+=<:>
 set wildmode=longest,list
 set smarttab
