@@ -1,0 +1,72 @@
+URxvt*depth: 32
+URxvt*transparent: true
+URxvt*shading: 20
+URxvt*foreground: grey
+URxvt*geometry: 120x25
+URxvt*visualBell: true
+URxvt*loginShell: true
+URxvt*saveLines: 10000
+URxvt*cursorBlink: true
+!URxvt*meta8: true
+URxvt.iso14755: False
+URxvt.iso14755_52: False
+
+!URxvt.scrollBar: false
+URxvt*scrollstyle: plain
+URxvt*scrollBar_right: true
+URxvt*scrollBar_floating: true
+URxvt*thickness: 1
+URxvt*scrollTtyOutput: false
+URxvt*scrollTtyKeypress: true
+
+!Xft.dpi:        96
+!Xft.antialias:  true
+!Xft.rgba:       rgb
+!Xft.hinting:    true
+!Xft.hintstyle:  hintslight
+
+URxvt.font:	        -adobe-courier-medium-r-normal--14-*-*-*-*-*-iso8859-1
+!URxvt.font: xft:Ubuntu Mono:size=11,style=regular
+!URxvt.boldFont: xft:Ubuntu Mono:size=11,style=regular
+URxvt.letterSpace: 0
+URxvt.lineSpace: 2
+
+URxvt.perl-ext-common: default,matcher
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.keysym.Control-L: perl:tabbedex:next_tab
+URxvt.keysym.Control-H: perl:tabbedex:prev_tab
+!URxvt.tabbed.no-tabbedex-keys: true
+
+URxvt*url-launcher: google-chrome
+URxvt.matcher.button: 1
+URxvt.colorUL: #4682B4
+
+! Colors
+URxvt*highlightColor: rgb:33/33/66
+URxvt*cursorColor: rgb:33/dd/33
+URxvt*fading: 25
+
+! black
+URxvt.color0:         rgb:19/19/19
+URxvt.color8:         rgb:25/25/25
+! red
+URxvt.color1:         rgb:cc/66/66
+URxvt.color9:         rgb:ff/00/00
+! green
+URxvt.color2:         rgb:66/cc/66
+URxvt.color10:        rgb:33/cc/33
+! brown/yellow
+URxvt.color3:         rgb:cc/cc/66
+URxvt.color11:        rgb:cc/cc/33
+! blue
+URxvt.color4:         rgb:66/66/ff
+URxvt.color12:        rgb:33/33/ff
+! magenta
+URxvt.color5:         rgb:cc/66/cc
+URxvt.color13:        rgb:cc/33/cc
+! cyan
+URxvt.color6:         rgb:66/cc/cc
+URxvt.color14:        rgb:33/cc/cc
+! white
+URxvt.color7:         rgb:ff/ff/ff
+URxvt.color15:        rgb:dd/dd/dd
